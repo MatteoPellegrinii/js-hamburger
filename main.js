@@ -4,10 +4,11 @@ var y = document.getElementsByClassName('hamburger-menu');
 console.log(y);
 
 
-x.addEventListener ("click", myFunction);
+x.addEventListener ('click',
+    function() {
+        y.style.display = 'block'
+    }
+);
 
-function myFunction(){
-    y.style.display = 'block';
-}
 
 
