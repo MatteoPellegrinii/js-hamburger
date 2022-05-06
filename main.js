@@ -1,14 +1,12 @@
-var x = document.getElementsByClassName('fas');
-console.log(x);
-var y = document.getElementsByClassName('hamburger-menu');
-console.log(y);
+let simbolo = document.querySelector('fas');
+console.log(simbolo);
+let menu = document.querySelector('hamburger-menu');
+console.log(menu);
 
 
-x.addEventListener ('click',
+simbolo.addEventListener ('click',
     function() {
-        y.style.display = 'block'
+        menu.style.display = 'block'
     }
 );
-
-
 
